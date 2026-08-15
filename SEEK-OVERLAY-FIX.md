@@ -16,8 +16,9 @@ Plextuary hides its inherited Estuary seek header while
 `script.plex.is_active` is set. This build brings that established behavior to
 stock Estuary without requiring users to replace their Kodi skin.
 
-For a permanent stock-Estuary solution, the equivalent opt-out should be
-generic rather than tied specifically to PlexMod.
+The companion's `script.plex.is_active` check is only the temporary tested
+workaround. The upstream proposal is a generic, app-controlled opt-out that
+PlexMod—or any other app drawing a complete seek interface—could set.
 
 ## Install PlexMod
 
