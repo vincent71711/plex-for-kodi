@@ -1,5 +1,8 @@
 # PM4K / PlexMod for Kodi
 
+> **Temporary fork:** Looking for the transparent seek-overlay build? Follow
+> the short [installation guide](SEEK-OVERLAY-FIX.md).
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z8X6P9T)
 
 This is a modification of the official open-source Plex client for Kodi "plex-for-kodi" (Plex4Kodi)  semi-maintained by me (pannal).
