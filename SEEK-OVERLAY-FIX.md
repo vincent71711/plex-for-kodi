@@ -68,10 +68,11 @@ ssh root@LIBREELEC_IP 'systemctl disable --now kodi-hide-seek-header.service; rm
 
 ## Best distribution route
 
-1. **PlexMod:** merge the one-line fade-condition change so PlexMod stops adding
-   the blackout during ordinary seeks.
-2. **Kodi/Estuary:** add a generic opt-out property for applications that draw
-   their own complete seek interface; PlexMod should set it only while active.
+1. **Kodi/Estuary:** add and release a generic opt-out property for applications
+   that draw their own complete seek interface.
+2. **PlexMod:** set that property while active and remove its fade only when the
+   installed Estuary supports the opt-out; keep the current behavior or make
+   transparent seeking opt-in for older Estuary versions.
 3. **Normal updates:** after both upstream releases include the changes, retire
    this temporary build and the LibreELEC companion.
 
