@@ -10,8 +10,8 @@ The title, wall clock, playback times, and PlexMod timeline remain visible.
 
 ## Install PlexMod
 
-1. Download `script.plexmod-1.3.19.1-seek-overlay-fix.zip` from the
-   [temporary release](https://github.com/vincent71711/plex-for-kodi/releases/tag/seek-overlay-fix-1.3.19.1).
+1. Download [`script.plexmod-1.3.19.1-seek-overlay-fix.zip`](https://github.com/vincent71711/plex-for-kodi/releases/tag/seek-overlay-fix-1.3.19.1) from the
+   temporary release.
 2. In Kodi, open **Add-ons → Install from zip file** and select the ZIP.
 3. Turn off automatic updates for PlexMod while testing this build.
 
@@ -21,7 +21,7 @@ with the companion below.
 
 ## Install the LibreELEC Estuary companion
 
-1. [Download `install-libreelec-estuary-fix.sh`](https://github.com/vincent71711/plex-for-kodi/releases/download/seek-overlay-fix-1.3.19.1/install-libreelec-estuary-fix.sh)
+1. Download [`install-libreelec-estuary-fix.sh`](https://github.com/vincent71711/plex-for-kodi/releases/download/seek-overlay-fix-1.3.19.1/install-libreelec-estuary-fix.sh)
    to a computer with SSH access to LibreELEC.
 2. Open a terminal in the folder containing the downloaded file.
 3. Replace `LIBREELEC_IP` below with the box's IP address and run:
