@@ -21,8 +21,10 @@ with the companion below.
 
 ## Install the LibreELEC Estuary companion
 
-From a computer with SSH access to LibreELEC, replace `LIBREELEC_IP` with the
-box's IP address and run:
+1. [Download `install-libreelec-estuary-fix.sh`](https://github.com/vincent71711/plex-for-kodi/releases/download/seek-overlay-fix-1.3.19.1/install-libreelec-estuary-fix.sh)
+   to a computer with SSH access to LibreELEC.
+2. Open a terminal in the folder containing the downloaded file.
+3. Replace `LIBREELEC_IP` below with the box's IP address and run:
 
 ```sh
 scp install-libreelec-estuary-fix.sh root@LIBREELEC_IP:/storage/
