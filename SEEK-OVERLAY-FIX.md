@@ -8,6 +8,17 @@ This temporary build is PlexMod 1.3.19 with two visual fixes:
 
 The title, wall clock, playback times, and PlexMod timeline remain visible.
 
+## Relationship to Plextuary
+
+Plextuary already provides this result as an Estuary fork with PM4K-specific
+integration: PlexMod omits its fade when `skin.plextuary` is active, and
+Plextuary hides its inherited Estuary seek header while
+`script.plex.is_active` is set. This build brings that established behavior to
+stock Estuary without requiring users to replace their Kodi skin.
+
+For a permanent stock-Estuary solution, the equivalent opt-out should be
+generic rather than tied specifically to PlexMod.
+
 ## Install PlexMod
 
 1. Download [`script.plexmod-1.3.19.1-seek-overlay-fix.zip`](https://github.com/vincent71711/plex-for-kodi/releases/tag/seek-overlay-fix-1.3.19.1) from the
